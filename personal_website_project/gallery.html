@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery - William Peebles</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gallery</h1>
+  </header>
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <ul class="site-nav__list">
+      <li><a class="site-nav__link" href="index.html">Home</a></li>
+      <li><a class="site-nav__link active" href="gallery.html">Gallery</a></li>
+      <li><a class="site-nav__link" href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <main>
+  <h1 class="section-title">Media Day</h1>
+    
+    <!-- Media day carousel -->
+    <section class="carousel" aria-label="Media day photos">
+      <button class="carousel__button carousel__button--prev" aria-label="Previous slide">‹</button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide"><img src="images/media_day/6H4A0714.jpg" alt="Media day photo 1"></li>
+          <li class="carousel__slide"><img src="images/media_day/6H4A0730.jpg" alt="Media day photo 2"></li>
+          <li class="carousel__slide"><img src="images/media_day/6H4A0732.jpg" alt="Media day photo 3"></li>
+          <li class="carousel__slide"><img src="images/media_day/6H4A0971.jpg" alt="Media day photo 4"></li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--next" aria-label="Next slide">›</button>
+      <div class="carousel__nav" aria-hidden="false"></div>
+    </section>
+  </main>
+</main>
+
+  <script src="js/carousel.js" defer></script>
+</body>
+</html>
